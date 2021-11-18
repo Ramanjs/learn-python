@@ -104,3 +104,8 @@ print(thisInteger)
 
 # String in short are called str (read as "stirs")
 thisString = str(thisInteger)
+
+# Updating Variables
+# Varaible naming convention
+# input() function
+# int(), float()
