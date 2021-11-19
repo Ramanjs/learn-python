@@ -48,8 +48,8 @@
 # True or True -> True
 # False or False -> False
 
-print(1 and 0)
-print(1 and 2)
+#print(1 and 0)
+#print(1 and 2)
 # Any integer except zero is truthy, 1 is perfect True and every other number is truish
 
 
@@ -63,12 +63,12 @@ floatingVariable = 6.3
 stringVariable = "This is a string"
 AnotherStringVar = 'This is another string'
 myName = "Raman"
-print("My name is " + myName)
+#print("My name is " + myName)
 # String concatenation
 # Adds two strings
-print(myName * 5)
+#print(myName * 5)
 # Formatted Strings
-print(f"My name is {myName} and I am {14 + 5} years old")
+#print(f"My name is {myName} and I am {14 + 5} years old")
 
 
 
@@ -90,22 +90,77 @@ floatVar = 5.7
 
 # Accessing characters of a string
 secondLetter = myName[1]
-print(secondLetter)
+#print(secondLetter)
 
 # len() function
 # function is a block of code which performs a specific task
 # len function returns (output) the length or the number of characters in a string
 
 lenOfMyName = len(myName)
-print(lenOfMyName)
+#print(lenOfMyName)
 
 thisInteger = 5
-print(thisInteger)
+#print(thisInteger)
 
 # String in short are called str (read as "stirs")
 thisString = str(thisInteger)
 
 # Updating Variables
+a = 5
+a = 82
+a = "This"
+# Python is a dynamically typed language
+# This means that variables can be assigned different data types
+# In static typed languages (c++, java) you cannot change the data type 
+# of the variable.
+
+a = 2 * 5 + (4 - 9)
+#print(a)
+
+a = a + 5
+#print(a)
+a = a - 10
+#print(a)
+a = a * 9
+#print(a)
+
+
 # Varaible naming convention
-# input() function
-# int(), float()
+# Cannot start with a number
+# Cannot contain any special character (like $)
+# Cannot contain hyphen (-)
+# We can use undercscore (_)
+# Cannot use reserved words
+
+# variable_name = 56
+
+# Camel Case
+# variableName = 56
+
+
+# int() function
+
+b = int(5.74)
+# Rounds it down to nearest integer
+#print(b)
+
+b = int("392")
+#print(b)
+
+#b = int("85ghd") # Cannot do this
+
+# float()
+
+b = float(42)
+#print(b)
+
+b = float("73.15")
+#print(b)
+
+# input() -> If we have to take input from the user, then we use this function
+# A program to take input the users name and print the number of letters in it
+
+myAge = input("Enter your age")
+# input function always returns a string
+myAge = int(myAge)
+print(type(myAge))
