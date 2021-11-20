@@ -38,10 +38,10 @@ string_var = "new string"
 ## Flow Control
 ##################################################
 
-# Flow is the execution of the python program.
-# Run or execute
+# Flow is the execution of the python program
+# Run or execute a program through command prompt
 # A program runs from top to bottom, line by line
-# Flow control statements ; They can change the flow of the program.
+# Flow control statements ; They can change the flow of the program
 # These statements can cause the interpreter to skip a block of code, or
 # repeat some block of code a fixed number of time.
 
@@ -49,9 +49,10 @@ string_var = "new string"
 # comparision operators. If a certain condition is true or false, then we can use these statements to direct program flow.
 
 # Blocks of Code or Clauses (Indentation)
-print("Hello") # Block change
+print("Hello")
+# Block change
 # Changing indentation creates a new block
-# You can only create a new block with flow control statements, If, else if, else, while loop.
+# You can only create a new block with flow control statements, If, else if, else, while loop, etc.
   # print("World")
 
 # A block is a set of continuous lines of code in the same indentation

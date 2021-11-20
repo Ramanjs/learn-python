@@ -74,3 +74,38 @@ print(final_string + last_character)
 """ Write a program to take input user's first name and user's last name.
     Then print full name of the user with a space between first and last names.
 """
+
+# 7 #
+
+""" Write a program to take input a string. Print the first, last and middle character of the
+string in separate lines."""
+
+# 8 # 
+
+# The following lines of code have some error in them. Correct it.
+new_string = "saturday"
+final_string = new_string + "6"
+print(final_string)
+
+# 9 # 
+
+a = (5 > 3)
+b = (231 < 94)
+c = (52 >= 52)
+d = (77 <= 813)
+answer = (a and d) or (b and c)
+print(answer)
+# Write answer below
+
+
+# 10 #
+a = 42
+b = 79
+print("The value of a is: " + str(a))
+print(f"The value of b is: {b}")
+b = a + b
+a = b - a
+b = b - a
+print("The new value of a is: " + str(a))
+print(f"The new value of b is: {b}")
+# Write answer below. Also, observe the output and see if you find anything special.
