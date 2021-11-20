@@ -84,7 +84,7 @@ string in separate lines."""
 
 # The following lines of code have some error in them. Correct it.
 new_string = "saturday"
-final_string = new_string + "6"
+final_string = new_string + 6
 print(final_string)
 
 # 9 # 
