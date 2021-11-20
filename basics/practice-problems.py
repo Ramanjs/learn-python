@@ -20,8 +20,8 @@ print(a)
 
 # 3 #
 
-b = (2 and 3) or (4 and 0)
-c = (7 or 0) and (1 or 6)
+b = (True and True) or (True and False)
+c = (True or False) and (True or True)
 d = (b == c)
 print(b)
 print(c)
