@@ -80,6 +80,18 @@ print(final_string + last_character)
 """ Write a program to take input a string. Print the first, last and middle character of the
 string in separate lines."""
 
+abcd = "vision"
+midindex = len(abcd) // 2
+# midindex = 3
+print(midindex) # it is the index of the middle character
+# to print the middle char we have to first access it.
+print(abcd[midindex]) # accesing the character
+# resolve into simpler line
+# print(abcd[3])
+# print("s")
+abcd[midindex]
+abcd[len(abcd) - 1]
+
 # 8 # 
 
 # The following lines of code have some error in them. Correct it.
@@ -110,21 +122,70 @@ print("The new value of a is: " + str(a))
 print(f"The new value of b is: {b}")
 # Write answer below. Also, observe the output and see if you find anything special.
 
-# 7 #
-abcd = "vision"
-midindex = len(abcd) // 2
-# midindex = 3
-print(midindex) # it is the index of the middle character
-# to print the middle char we have to first access it.
-print(abcd[midindex]) # accesing the character
-# resolve into simpler line
-# print(abcd[3])
-# print("s")
-abcd[midindex]
-abcd[len(abcd) - 1]
 
 # In any expression if we write a variable, then the expression is evaluated by
 # replacing the variable by its value.
 ab = 42
 c = ab + 9
 # c = 42 + 9
+
+
+# 11 #
+
+num = 55
+if (num % 5 == 0):
+    print("Num is divisible by 5")
+else:
+    print("Num is NOT divisible by 5")
+# Write answer below
+
+
+# 12 #
+
+num = 21
+if (num % 2 == 0):
+    print("Num is even")
+else:
+    print("Num is odd")
+# Write answer below
+
+
+# 13 #
+
+age = 32
+
+if (age >= 65):
+    print("You are a senior citizen")
+elif (age >= 18 and age < 65):
+    print("You are an adult")
+else:
+    print("You are a minor")
+# Write answer below
+
+
+# 14 #
+
+marks = 47
+grade = "" # "" is an empty string
+if (marks >= 90):
+    grade = "A1"
+elif (marks >= 80 and marks < 90):
+    grade = "A2"
+elif (marks >= 70 and marks < 80):
+    grade = "B"
+elif (marks >= 60 and marks < 70):
+    grade = "C"
+elif (marks >= 50 and marks < 60):
+    grade = "D"
+elif (marks >= 40 and marks < 50):
+    grade = "E"
+else: 
+    grade = "F"
+print(grade)
+# Write answer below
+
+
+# 15 #
+
+""" Write a program to take input a number from the user.
+Print whether the number is negative, positive or zero."""
