@@ -73,8 +73,38 @@ if (age > 10):
 	# new block of code has started
 	print("My age is greater than 10 years")
 
+# If the statement inside the if conditions is true then run next block, otherwise skip it.
 
+# else if -> elif
+age = 8 
+if (age > 10):
+  print("my age is greater than 10 years")
+else:
+  print("my age is less than 10 years")
+
+
+
+# else -> if all the above conditions are false, then the else block of code is run
 
 
 # while loop
+# it is used to repeat a block of code some fixed number of times, or even infinitely
+
+marks = 45
+while (marks > 40):
+  print("fail")
+  marks = marks + 1
+
+
+
+
+
+
+
+
+
+
+
+
+
 # break, continue
