@@ -109,3 +109,22 @@ b = b - a
 print("The new value of a is: " + str(a))
 print(f"The new value of b is: {b}")
 # Write answer below. Also, observe the output and see if you find anything special.
+
+# 7 #
+abcd = "vision"
+midindex = len(abcd) // 2
+# midindex = 3
+print(midindex) # it is the index of the middle character
+# to print the middle char we have to first access it.
+print(abcd[midindex]) # accesing the character
+# resolve into simpler line
+# print(abcd[3])
+# print("s")
+abcd[midindex]
+abcd[len(abcd) - 1]
+
+# In any expression if we write a variable, then the expression is evaluated by
+# replacing the variable by its value.
+ab = 42
+c = ab + 9
+# c = 42 + 9
