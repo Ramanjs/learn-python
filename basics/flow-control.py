@@ -22,10 +22,6 @@ print(not True)
 # while loop (condition)
 print(not False)
 
-# not can be denoted by !
-#print(True)
-#print(False)
-
 # Expressions vs Statements
 # Expression is any python line that evaluates to any value.
 (True and True) # This is an expression
@@ -69,7 +65,6 @@ print(len(string_var))
 # if, else, else if
 age = 10
 if (age > 10):
-	# if (False):
 	# new block of code has started
 	print("My age is greater than 10 years")
 
@@ -90,10 +85,10 @@ else:
 # while loop
 # it is used to repeat a block of code some fixed number of times, or even infinitely
 
-# marks = 45
-# while (marks > 40):
-#   print("fail")
-#   marks = marks + 1
+marks = 45
+while (marks > 40):
+  print("fail")
+  marks = marks + 1
 
 # while loop; Components
 # 1. Starting point. We can store the starting point in variable.
@@ -104,39 +99,42 @@ else:
 
 # Break statement
 # it is used to break the while loop
-# num = 1 # dry run 
-# while (num <= 10):
-#   if (num == 5):
-#     break
-#   print(num)
-#   num = num + 1
+num = 1 # dry run 
+while (num <= 10):
+  if (num == 5):
+    break
+  print(num)
+  num = num + 1
 # after the break statement is met, the rest of the while loop block is skipped and the loop is broken
 
 
 # continue statement
 
-# num = 1 # dry run
-# while (num <= 10):
-#   if (num == 5):
-#     num = num + 1
-#     continue
-#   print(num)
-#   num = num + 1
+num = 1 # dry run
+while (num <= 10):
+  if (num == 5):
+    num = num + 1
+    continue
+  print(num)
+  num = num + 1
 
 # after the continue statement is met, the rest of the while loop is skipped and program starts again from the
 # beginning of the while loop
 
 
+#################################################
 # truthy and falsey values
+#################################################
+
 # all numbers except 0 are truish, truthy
 bool(3) # True
 bool(0) # False
 # 0 False, 1 True
 
-# num = 5
-# while (num):
-#   print(num)
-#   num = num - 1
+num = 5
+while (num):
+  print(num)
+  num = num - 1
 
 # falsey values are 0, 0.0, string ka false ""
 "this", "raman" # are true
@@ -148,9 +146,9 @@ bool(0) # False
 # [3, 5) -> 3, 4
 # [start, end)
 
-# num = 1
-# while (num <= 10):
-#    num = num + 1
+num = 1
+while (num <= 10):
+   num = num + 1
 
 for num in range(11, 0, -1): # num in the range [1, 11)
   print(num)
