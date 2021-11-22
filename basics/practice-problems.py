@@ -213,24 +213,25 @@ Print the lexicographically smaller name """
 
 """ Write a program to print first 10 natural number in reverse order using while loop """
 
-# num = 5
-# while (num > 0):
-#     print(num)
-#     num = num - 1
+num = 5
+while (num > 0):
+    print(num)
+    num = num - 1
 
 # if we need to go forward, then we generally use (num = num + 1, <= )
 # in reverse order, num > 0, num = num - 1
 
+
 # 20 # 
 
 """ Write a program to print sum of first 10 Natural numbers """
-# sum_var = 0
-# num = 1
-# while (num <= 5):
-#     # print(num)
-#     sum_var =  sum_var + num # sum_var = 15
-#     num = num + 1
-# print(sum_var)
+sum_var = 0
+num = 1
+while (num <= 5):
+    sum_var =  sum_var + num       # sum_var = 1 + 2 + 3 + 4 + 5
+    num = num + 1
+print(sum_var)
+
 
 # 21 # 
 
@@ -246,14 +247,60 @@ while (index <= n - 1):
     index = index + 1
 
 
-# Write a program to input a string from the user and reverse. Print the reverse string.
+# 22 #
+
+# Write a program to input a string from the user and print the reverse string.
 
 index = len(string_var) - 1
 while (index >= 0):
     print(string_var[index])
     index = index - 1
 
-# while loop; Components
-# 1. Starting point. We can store the starting point in variable.
-# 2. While condition. End point.
-# 3. Updation of variable. if we need to go forwards, then num = num + 1, or num = num - 1 for backwards
+
+# 23 # 
+
+my_name = "Tom Marvolo Riddle"
+random_index = 7 % 3
+print(my_name[random_index])
+# Write answer below
+
+
+# 24 #
+
+num = 1
+while (num <= 10):
+    if (num % 2):
+        print(num)
+    num = num + 1
+
+# Write answer below
+
+
+
+
+
+
+# 25 #
+
+some_string = "Jupiter"
+reverse_string = ""
+index = len(some_string) - 1
+while (index >= 0):
+    reverse_string = reverse_string + some_string[index]
+    index = index + 1
+print(reverse_string)
+
+# Write answer below
+
+
+# 26 #
+
+num = 21
+while (num):
+    if (num < 17):
+        print("Ending the loop")
+        break
+    print(num)
+    num = num - 2
+
+# Write answer below
