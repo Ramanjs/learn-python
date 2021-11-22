@@ -213,11 +213,24 @@ Print the lexicographically smaller name """
 
 """ Write a program to print first 10 natural number in reverse order using while loop """
 
+# num = 5
+# while (num > 0):
+#     print(num)
+#     num = num - 1
+
+# if we need to go forward, then we generally use (num = num + 1, <= )
+# in reverse order, num > 0, num = num - 1
 
 # 20 # 
 
 """ Write a program to print sum of first 10 Natural numbers """
-
+# sum_var = 0
+# num = 1
+# while (num <= 5):
+#     # print(num)
+#     sum_var =  sum_var + num # sum_var = 15
+#     num = num + 1
+# print(sum_var)
 
 # 21 # 
 
@@ -225,3 +238,22 @@ Print the lexicographically smaller name """
 """ Write a program to take input a string from the user 
 and print each character of the string separately on a new line """
 
+string_var = input("Enter a string") # default value is string
+n = len(string_var)
+index = 0
+while (index <= n - 1):
+    print(string_var[index])
+    index = index + 1
+
+
+# Write a program to input a string from the user and reverse. Print the reverse string.
+
+index = len(string_var) - 1
+while (index >= 0):
+    print(string_var[index])
+    index = index - 1
+
+# while loop; Components
+# 1. Starting point. We can store the starting point in variable.
+# 2. While condition. End point.
+# 3. Updation of variable. if we need to go forwards, then num = num + 1, or num = num - 1 for backwards

@@ -90,21 +90,67 @@ else:
 # while loop
 # it is used to repeat a block of code some fixed number of times, or even infinitely
 
-marks = 45
-while (marks > 40):
-  print("fail")
-  marks = marks + 1
+# marks = 45
+# while (marks > 40):
+#   print("fail")
+#   marks = marks + 1
 
-
-
-
-
-
-
-
-
-
-
-
+# while loop; Components
+# 1. Starting point. We can store the starting point in variable.
+# 2. While condition. End point.
+# 3. Updation of variable. if we need to go forwards, then num = num + 1, or num = num - 1 for backwards
 
 # break, continue
+
+# Break statement
+# it is used to break the while loop
+# num = 1 # dry run 
+# while (num <= 10):
+#   if (num == 5):
+#     break
+#   print(num)
+#   num = num + 1
+# after the break statement is met, the rest of the while loop block is skipped and the loop is broken
+
+
+# continue statement
+
+# num = 1 # dry run
+# while (num <= 10):
+#   if (num == 5):
+#     num = num + 1
+#     continue
+#   print(num)
+#   num = num + 1
+
+# after the continue statement is met, the rest of the while loop is skipped and program starts again from the
+# beginning of the while loop
+
+
+# truthy and falsey values
+# all numbers except 0 are truish, truthy
+bool(3) # True
+bool(0) # False
+# 0 False, 1 True
+
+# num = 5
+# while (num):
+#   print(num)
+#   num = num - 1
+
+# falsey values are 0, 0.0, string ka false ""
+"this", "raman" # are true
+
+# range() function
+
+# In range function, we pass three values
+# range(start, end, step)
+# [3, 5) -> 3, 4
+# [start, end)
+
+# num = 1
+# while (num <= 10):
+#    num = num + 1
+
+for num in range(11, 0, -1): # num in the range [1, 11)
+  print(num)
