@@ -1,0 +1,48 @@
+Week 1 : 17 - 21 Nov
+
+Topics covered :
+Data types (int, float, bool, string)
+Operators (comparsion, logical, assignment)
+Variables
+Type Conversion (int(), float(), str())
+input() function
+if, else if, else
+Loops (while and for)
+
+
+Week 2 : 22 - 28 Nov
+
+Topics to be covered : 
+Functions
+Lists
+Tuples
+
+
+Week 3 : 29 Nov - 5 Dec
+
+Topics to be covered :
+Dictionary
+Sets
+Strings in detail
+File management
+
+
+Week 4 : 6 - 12 Dec
+
+Topics to be covered :
+Web Scraping (beautiful soup)
+
+
+Week 5 : 13 - 19 Dec
+
+Topics to be covered :
+Statistics
+Data Analysis
+Numpy, Pandas
+
+
+Week 6 : 20 - 26 Dec
+
+Topics to be covered :
+Data Science
+Practice Problems
