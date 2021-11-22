@@ -7,7 +7,7 @@
 a = 2
 a = a * 2
 x = 4 + a
-print(x)
+# print(x)
 # Write answer below 
 
 
@@ -18,7 +18,7 @@ a = 9 * 4 // 12 - (7 % 5 + 3)
 # a = 36 // 12 - (5)
 # a = 3 - 5
 # a = -2
-print(a)
+# print(a)
 # Write answer below
 
 
@@ -31,9 +31,9 @@ b = (True and True) or (True and False)
 c = (True or False) and (True or True)
 c = True
 d = (b == c)
-print(b)
-print(c)
-print(d)	
+# print(b)
+# print(c)
+# print(d)	
 # Write ans below
 
 
@@ -44,7 +44,7 @@ print(d)
 some_string = "Wow!, programming is way easier than I thought."
 other_string = "So far."
 final_string = some_string + " " + other_string
-print(final_string)
+# print(final_string)
 # Write answer below
 
 
@@ -65,7 +65,7 @@ final_string = other_string[2] + other_string[1]
 # 2 "h", index = 1
 # 3 "a", index = 2
 last_character = new_string[-1] # Python specific
-print(final_string + last_character)
+# print(final_string + last_character)
 # Write answer below
 
 
@@ -83,9 +83,9 @@ string in separate lines."""
 abcd = "vision"
 midindex = len(abcd) // 2
 # midindex = 3
-print(midindex) # it is the index of the middle character
+# print(midindex) # it is the index of the middle character
 # to print the middle char we have to first access it.
-print(abcd[midindex]) # accesing the character
+# print(abcd[midindex]) # accesing the character
 # resolve into simpler line
 # print(abcd[3])
 # print("s")
@@ -96,8 +96,8 @@ abcd[len(abcd) - 1]
 
 # The following lines of code have some error in them. Correct it.
 new_string = "saturday"
-final_string = new_string + 6
-print(final_string)
+# final_string = new_string + 6
+# print(final_string)
 
 # 9 # 
 
@@ -106,20 +106,20 @@ b = (231 < 94)
 c = (52 >= 52)
 d = (77 <= 813)
 answer = (a and d) or (b and c)
-print(answer)
+# print(answer)
 # Write answer below
 
 
 # 10 #
 a = 42
 b = 79
-print("The value of a is: " + str(a))
-print(f"The value of b is: {b}")
+# print("The value of a is: " + str(a))
+# print(f"The value of b is: {b}")
 b = a + b
 a = b - a
 b = b - a
-print("The new value of a is: " + str(a))
-print(f"The new value of b is: {b}")
+# print("The new value of a is: " + str(a))
+# print(f"The new value of b is: {b}")
 # Write answer below. Also, observe the output and see if you find anything special.
 
 
@@ -189,3 +189,39 @@ print(grade)
 
 """ Write a program to take input a number from the user.
 Print whether the number is negative, positive or zero."""
+
+
+# 16 #
+
+""" Write a program to take input two numbers from the user.
+Print the larger of the two numbers """
+
+
+# 17 # 
+
+""" Write a program to input two names from the user.
+Print the lexicographically smaller name """
+
+
+# 18 #
+
+#### HARD ####
+""" Take input of age of 3 people by user and determine oldest among them """
+
+
+# 19 #
+
+""" Write a program to print first 10 natural number in reverse order using while loop """
+
+
+# 20 # 
+
+""" Write a program to print sum of first 10 Natural numbers """
+
+
+# 21 # 
+
+#### HARD ####
+""" Write a program to take input a string from the user 
+and print each character of the string separately on a new line """
+
