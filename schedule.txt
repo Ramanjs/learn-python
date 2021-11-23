@@ -16,21 +16,23 @@ Topics to be covered :
 Functions
 Lists
 Tuples
+Dictionary
+Sets
 
 
 Week 3 : 29 Nov - 5 Dec
 
 Topics to be covered :
-Dictionary
-Sets
 Strings in detail
 File management
+Web Scraping (beautiful soup)
 
 
 Week 4 : 6 - 12 Dec
 
 Topics to be covered :
-Web Scraping (beautiful soup)
+SQL
+Using SQL with python
 
 
 Week 5 : 13 - 19 Dec
