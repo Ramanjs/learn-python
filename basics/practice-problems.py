@@ -214,9 +214,17 @@ Print the lexicographically smaller name """
 """ Write a program to print first 10 natural number in reverse order using while loop """
 
 num = 5
-while (num > 0):
+while (num):
     print(num)
     num = num - 1
+
+for num in range(1, 11, 1): # [1, 11) closed is square and open is paranthesis
+    print(num)
+
+for num in range(10, 0, -1): # [10, 0) num decreases by 1
+    print(num)
+
+
 
 # if we need to go forward, then we generally use (num = num + 1, <= )
 # in reverse order, num > 0, num = num - 1
@@ -230,6 +238,12 @@ num = 1
 while (num <= 5):
     sum_var =  sum_var + num       # sum_var = 1 + 2 + 3 + 4 + 5
     num = num + 1
+print(sum_var)
+
+#
+sum_var = 0
+for num in range(1, 11, 1):
+    sum_var = sum_var + num
 print(sum_var)
 
 
@@ -246,6 +260,13 @@ while (index <= n - 1):
     print(string_var[index])
     index = index + 1
 
+string_var = "jupiter"
+n = len(string_var)
+
+for index in range(0, n, 1):
+    print(string_var[index]) # iteration
+
+
 
 # 22 #
 
@@ -255,6 +276,13 @@ index = len(string_var) - 1
 while (index >= 0):
     print(string_var[index])
     index = index - 1
+
+
+
+n = len(string_var)
+
+for index in range(n - 1, -1, -1): # [n - 1, -1)
+    print(string_var[index])
 
 
 # 23 # 
@@ -269,29 +297,30 @@ print(my_name[random_index])
 
 num = 1
 while (num <= 10):
-    if (num % 2):
+    if (num % 2): # if (1)
         print(num)
     num = num + 1
 
 # Write answer below
-
-
-
-
+1
+3
+5
+7
+9
 
 
 # 25 #
 
 some_string = "Jupiter"
-reverse_string = ""
-index = len(some_string) - 1
+reverse_string = "" # empty string
+index = len(some_string) - 1 # index = 6
 while (index >= 0):
-    reverse_string = reverse_string + some_string[index]
-    index = index + 1
+    reverse_string = reverse_string + some_string[index] # reverse_string = "retipuJ"
+    index = index - 1
 print(reverse_string)
 
 # Write answer below
-
+retipuJ
 
 # 26 #
 
@@ -304,3 +333,10 @@ while (num):
     num = num - 2
 
 # Write answer below
+21
+19
+17
+Ending the loop
+
+
+# Modulo or remainder
