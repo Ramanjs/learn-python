@@ -112,31 +112,27 @@ a = 82
 a = "This"
 # Python is a dynamically typed language
 # This means that variables can be assigned different data types
-# In static typed languages (c++, java) you cannot change the data type 
-# of the variable.
+# In static typed languages (c++, java) you cannot change the data type of the variable.
 
 a = 2 * 5 + (4 - 9)
-#print(a)
+print(a) # -> 5
 
 a = a + 5
-#print(a)
+print(a) # -> 10
 a = a - 10
-#print(a)
+print(a) # -> 0
 a = a * 9
-#print(a)
+print(a) # -> 0
 
 
 # Varaible naming convention
 # Cannot start with a number
 # Cannot contain any special character (like $)
 # Cannot contain hyphen (-)
-# We can use undercscore (_)
+# We can use underscore (_)
 # Cannot use reserved words
 
-# variable_name = 56
-
-# Camel Case
-# variableName = 56
+variable_name = 56
 
 
 # int() function
@@ -160,9 +156,8 @@ b = float("73.15")
 print(b) # -> 73.15
 
 # input() -> If we have to take input from the user, then we use this function
-# A program to take input the users name and print the number of letters in it
 
 myAge = input("Enter your age")
 # input function always returns a string
 myAge = int(myAge)
-print(type(myAge))
+print(myAge) 
