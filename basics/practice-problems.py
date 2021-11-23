@@ -7,8 +7,9 @@
 a = 2
 a = a * 2
 x = 4 + a
-# print(x)
+print(x)
 # Write answer below 
+# 8
 
 
 # 2 #
@@ -18,8 +19,9 @@ a = 9 * 4 // 12 - (7 % 5 + 3)
 # a = 36 // 12 - (5)
 # a = 3 - 5
 # a = -2
-# print(a)
+print(a)
 # Write answer below
+# -2
 
 
 # 3 #
@@ -31,12 +33,13 @@ b = (True and True) or (True and False)
 c = (True or False) and (True or True)
 c = True
 d = (b == c)
-# print(b)
-# print(c)
-# print(d)	
+print(b)
+print(c)
+print(d)	
 # Write ans below
-
-
+# True
+# True
+# True
 
 
 # 4 #
@@ -44,9 +47,9 @@ d = (b == c)
 some_string = "Wow!, programming is way easier than I thought."
 other_string = "So far."
 final_string = some_string + " " + other_string
-# print(final_string)
+print(final_string)
 # Write answer below
-
+# "Wow!, programming is way easier than I thought. So far."
 
 
 # 5 #
@@ -54,19 +57,19 @@ final_string = some_string + " " + other_string
 new_string = "what a day"
 other_string = "maybe"
 final_string = other_string[2] + other_string[1]
-#last_character = new_string[len(new_string) - 1]
+last_character = new_string[len(new_string) - 1]
 # last_character = new_string[10 - 1]
 # last_character = new_string[9]
 # last_character = "y"
-# if we need the last character of a string. Then the index of the last character is length of string - 1.
-# If in general case, the length of a string is n, then indexing is from 0 to n - 1.
-# 1 to n is n numbers. similarly 0 to n - 1 is also n numbers.
-# 1 "w", index = 0
-# 2 "h", index = 1
-# 3 "a", index = 2
-last_character = new_string[-1] # Python specific
-# print(final_string + last_character)
+
+# if we need the last character of a string. Then the index of the last character is (length of string - 1)
+# If in general case, the length of a string is n, then indexing is from 0 to n - 1
+# 1 to n is n numbers. Similarly 0 to n - 1 is also n numbers
+
+last_character = new_string[-1] # Another way to access the last character of a string
+print(final_string + last_character)
 # Write answer below
+# yay
 
 
 # 6 #
@@ -81,23 +84,30 @@ last_character = new_string[-1] # Python specific
 string in separate lines."""
 
 abcd = "vision"
+print(abcd[0])
 midindex = len(abcd) // 2
 # midindex = 3
-# print(midindex) # it is the index of the middle character
+# it is the index of the middle character
 # to print the middle char we have to first access it.
-# print(abcd[midindex]) # accesing the character
-# resolve into simpler line
+
+print(abcd[midindex]) # accesing the character
+# re-solve into simpler line
 # print(abcd[3])
 # print("s")
-abcd[midindex]
-abcd[len(abcd) - 1]
+print(abcd[len(abcd) - 1])
+# Ouput of above code below :
+# v
+# i
+# n
+
 
 # 8 # 
 
 # The following lines of code have some error in them. Correct it.
 new_string = "saturday"
-# final_string = new_string + 6
-# print(final_string)
+final_string = new_string + str(6) # convert 6 to string using str()
+print(final_string)
+
 
 # 9 # 
 
@@ -106,8 +116,9 @@ b = (231 < 94)
 c = (52 >= 52)
 d = (77 <= 813)
 answer = (a and d) or (b and c)
-# print(answer)
+print(answer)
 # Write answer below
+# True
 
 
 # 10 #
@@ -213,26 +224,23 @@ Print the lexicographically smaller name """
 
 """ Write a program to print first 10 natural number in reverse order using while loop """
 
-num = 5
+num = 10
 while (num):
     print(num)
     num = num - 1
 
-for num in range(1, 11, 1): # [1, 11) closed is square and open is paranthesis
-    print(num)
-
+# Same program using for loop 
 for num in range(10, 0, -1): # [10, 0) num decreases by 1
     print(num)
 
 
-
-# if we need to go forward, then we generally use (num = num + 1, <= )
-# in reverse order, num > 0, num = num - 1
+# if we need to go forward, then we generally use (num = num + 1)
+# in reverse order, num = num - 1
 
 
 # 20 # 
 
-""" Write a program to print sum of first 10 Natural numbers """
+""" Write a program to print sum of first 5 Natural numbers """
 sum_var = 0
 num = 1
 while (num <= 5):
@@ -240,9 +248,9 @@ while (num <= 5):
     num = num + 1
 print(sum_var)
 
-#
+# Same program using for loop
 sum_var = 0
-for num in range(1, 11, 1):
+for num in range(1, 6, 1):
     sum_var = sum_var + num
 print(sum_var)
 
@@ -253,13 +261,14 @@ print(sum_var)
 """ Write a program to take input a string from the user 
 and print each character of the string separately on a new line """
 
-string_var = input("Enter a string") # default value is string
+string_var = input("Enter a string") # default type of input() function is string
 n = len(string_var)
 index = 0
 while (index <= n - 1):
     print(string_var[index])
     index = index + 1
 
+# Same program using for loop
 string_var = "jupiter"
 n = len(string_var)
 
@@ -267,18 +276,16 @@ for index in range(0, n, 1):
     print(string_var[index]) # iteration
 
 
-
 # 22 #
 
-# Write a program to input a string from the user and print the reverse string.
+""" Write a program to input a string from the user and print the reverse string """
 
 index = len(string_var) - 1
 while (index >= 0):
     print(string_var[index])
     index = index - 1
 
-
-
+# Same program using for loop
 n = len(string_var)
 
 for index in range(n - 1, -1, -1): # [n - 1, -1)
@@ -291,6 +298,7 @@ my_name = "Tom Marvolo Riddle"
 random_index = 7 % 3
 print(my_name[random_index])
 # Write answer below
+# o
 
 
 # 24 #
@@ -302,11 +310,11 @@ while (num <= 10):
     num = num + 1
 
 # Write answer below
-1
-3
-5
-7
-9
+# 1
+# 3
+# 5
+# 7
+# 9
 
 
 # 25 #
@@ -320,7 +328,8 @@ while (index >= 0):
 print(reverse_string)
 
 # Write answer below
-retipuJ
+# retipuJ
+
 
 # 26 #
 
@@ -333,10 +342,7 @@ while (num):
     num = num - 2
 
 # Write answer below
-21
-19
-17
-Ending the loop
-
-
-# Modulo or remainder
+# 21
+# 19
+# 17
+# Ending the loop
