@@ -11,39 +11,41 @@ randonList = ["string", 5.32, 6]
 # The values in a list are also called items
 # You can access items in a list with it's index
 
-print(myFriends[2])
+print(myFriends[2]) # -> "parth"
 
 # The indexes start at 0
 
-# Negative indexes
+# Negative indexes start from the end
 string_var = "this"
-lastChar = string_var[-1]
-print(lastChar) # -> i
-firstItem = myFriends[-4]
-print(firstItem)
+lastChar = string_var[-1] 
+print(lastChar) # -> "s"
+firstItem = myFriends[-4] 
+print(firstItem) # -> "parth"
 
 # Slice function
 newList = myFriends[1:4] # [1, 4)
-print(newList)
+print(newList) # -> ["ashmit", "parth", "ashutosh"]
 
 newList = myFriends[:4]
-print(newList)
+print(newList) # -> ["raman", "ashmit", "parth", "ashutosh"]
 
 newList = myFriends[1:]
-print(newList)
+print(newList) # -> ["ashmit", "parth", "ashutosh", "devansh", "mayank"]
 
-print(string_var[::-1])
+string_var = "raman"
+print(string_var[::-1]) # -> "namar"
 
-# len(), concatenation same as strings
+# len()
 lengthOfList = len(myFriends)
-print(lengthOfList)
+print(lengthOfList) # -> 6
+
 
 # list()
 
 newList = list("this")
-print(newList)
+print(newList) # -> ['t', 'h', 'i', 's']
 
-# Append
+# Append -> adds a new item to the end of the list
 myFriends.append("raj")
 print(myFriends)
 
