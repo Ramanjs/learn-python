@@ -163,7 +163,7 @@ while (num):
 # start is closed and end is open -> [start, end)
 # [3, 7) -> 3, 4, 5, 6
 
-for num in range(11, 0, -1): # num in the range [1, 11)
+for num in range(11, 0, -1): # num in the range [11, 0)
   print(num)
 
 # Output of lines 166 - 167 below :
