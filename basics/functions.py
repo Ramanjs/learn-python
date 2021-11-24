@@ -18,23 +18,45 @@ def myFunction(myVariable): # Parameter
 # ended the function
 
 # a function runs when it is called
-myFunction("Raman") # calling the function
-myFunction("Rishi") # calling the function with different argument
+# myFunction("Raman") # calling the function
+# myFunction("Rishi") # calling the function with different argument
 
 def add(num1, num2):
-	return 0 # return is kind of a break statement of functions
+	# return is kind of a break statement of functions
 	sum_var = num1 + num2
-	print(sum_var)
 	return sum_var
 
-return_value = add(4, 8)
-print(return_value)
+
+# return_variable = add(4, 8)
+#print(return_value)
 
 def modulo(num1, num2):
 	print(num1 % num2)
 
 
-modulo(4, 5)
+# modulo(4, 5)
+
+
+def reverse_string(string_variable):
+	n = len(string_variable) 
+	index = n - 1
+	reverse_result = ''
+	while (index >= 0):
+		reverse_result = reverse_result + string_variable[index] 
+		index = index - 1
+	return reverse_result
+
+
+reverse1 = reverse_string("raman")
+reverse2 = reverse_string("rishi")
+reverse3 = reverse_string("parth")
+print(reverse1)
+print(reverse2)
+print(reverse3)
+
+
+
+
 
 # To store the argument we pass in the function call, there should be 
 # a corresponding variable to store the argument
@@ -51,5 +73,22 @@ modulo(4, 5)
 # None value
 
 
-# Call Stack
 # Local and global scope
+myName = "raman"
+def add(num1, num2):
+	sum_var = num1 + num2
+	print(myName)
+	return sum_var
+
+result = add(2, 3)
+# print(sum_var)
+
+# Modules
+# We can import functions from other files
+from module import divide
+result = divide(5, 6)
+print(result)
+import random
+
+random_integer = random.randint(1, 5)
+print(random_integer)
