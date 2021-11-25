@@ -3,7 +3,7 @@
 #################################################
 
 # A list is a value that contains multiple values
-# Data Structure
+# It is a data structure
 myFriends = ["raman", "ashmit", "parth", "ashutosh", "devansh", "mayank"]
 myNumbers = [1, 2, 3, 9, 5, 4]
 randonList = ["string", 5.32, 6]
@@ -72,6 +72,7 @@ num /= 5 # num = num / 5
 for item in myFriends:
 	print(item)
 
+# Other way of doing the above thing
 for i in range(0, len(myFriends), 1):
 	print(myFriends[i])
 
@@ -82,16 +83,17 @@ for charachter in string_var:
 	print(charachter)
 
 # index()
-# It searches for the argument in the given list and returns its index if found
+# It searches for the argument in the given list and returns its index if found in the list
 indexOfParth = myFriends.index("parth") 
 print(indexOfParth)
 
-# indexOf = myFriends.index("ram")
+# indexOf = myFriends.index("ram") -> Gives error as "ram" is not in the list
 # print(indexOf)
 
 # insert()
 # It inserts given value inside the list
-myFriends.insert(4, "harsh")
+# It takes two arguments : First is the index before which the new item is to be inserted, and second is the item itself
+myFriends.insert(4, "harsh") # Inserts "harsh" before index 4
 print(myFriends)
 
 # remove()
@@ -99,10 +101,12 @@ print(myFriends)
 myFriends.remove("harsh")
 print(myFriends)
 
-# myFriends.remove("new")
+# myFriends.remove("new") -> this gives error as "new" is not in the list
 
 # sort(), arranging in ascending order
 myFriends.sort()
 print(myFriends)
 
-myFriends.sort(reverse = False)
+# Sorting in descdending order
+# We use the reverse keyword
+myFriends.sort(reverse = True)
