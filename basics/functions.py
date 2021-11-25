@@ -84,7 +84,27 @@ from module import divide # We need to tell python the file name from which we a
 result = divide(5, 6)
 print(result)
 
-import random # random is a built-in module
+from random import randint # random is a built-in module
 
-random_integer = random.randint(1, 5)
-print(random_integer)
+print(randint(1, 5))
+
+# Keyword arguments
+
+def multiply(num1, num2):
+	result = num1 * num2
+	print("num1 is " + str(num1))
+	print("num2 is " + str(num2))
+	return result
+
+
+print(multiply(num1 = 5, num2 = 4))
+
+# Default values of arguments
+def divide(num1 = 4, num2 = 7):
+	result = num1 / num2
+	return result
+
+print(divide(3, 8))
+# If in the function call we dont write all the arguments, then the arguments take their default values.
+# default values are defined in the function definition
+print(divide())
