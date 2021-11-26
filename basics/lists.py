@@ -112,5 +112,37 @@ print(myFriends)
 myFriends.sort(reverse = True)
 
 # in and not in
+# If we need to check that a specific item exists in the list then we use the in operator
+a = "parth" in myFriends
+print(a)
+
+b = "parth" not in myFriends
+print(b)
+
+string_var = "tom"
+a = "t" in string_var
+print(a)
+
+
+
 # mutable and immutable
-# Tuples
+
+# Mutable means can be changed
+myFriends[4] = "ashmit"
+# Lists are mutable
+
+# Strings are immutable
+string_var = "this"
+
+#################################################
+## Tuples
+#################################################
+
+# They are identical to lists
+# Except for the fact that they are immutable
+# lists start with [], tuples are enclosed in ()
+myList = ['tom', 'marvolo', 'riddle']
+
+myTuple = ('tom', 'marvolo', 'riddle')
+# Indexed data structures are ordered
+print(myTuple[0])
