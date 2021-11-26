@@ -110,3 +110,7 @@ print(myFriends)
 # Sorting in descdending order
 # We use the reverse keyword
 myFriends.sort(reverse = True)
+
+# in and not in
+# mutable and immutable
+# Tuples
