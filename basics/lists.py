@@ -50,7 +50,7 @@ myFriends.append("raj")
 print(myFriends)
 
 # changing list items
-
+string_var = "flower"
 myFriends[3] = "this"
 
 

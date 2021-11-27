@@ -61,3 +61,10 @@ myValue = myDict.get("random")
 
 a = "one" in myDict
 print(a)
+
+# updating dictionary
+myDict["mutable"] = "un-changable" # assignment operator
+myLetters = ['a', 'b', 'c', 'd', 'e']
+myLetters.insert(3, 'f') # index at which we have to insert
+print(myLetters)
+myLetters = ['a', 'b', 'c', 'f', 'd', 'e']
