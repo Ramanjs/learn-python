@@ -14,7 +14,7 @@ print(wd)
 # ..\basics\flow-control.py
 
 # Change directory
-os.chdir('C:\\Users\\Ramanjeet Singh\\Documents\\learn-python\\file-handling\\some-folder')
+os.chdir('.\\some-folder')
 wd = os.getcwd()
 print(wd)
 
@@ -59,8 +59,9 @@ print(string_var)
 
 
 # Escape characters and raw strings
+# in raw strings python ignores escape characters
 # Newline character
-string_var = "This is\n a string"
+string_var = r"This is\n a string"
 print(string_var)
 
 # Tab character
@@ -78,7 +79,7 @@ new_file.close()
 # shutil copy and move functions
 import shutil
 # copy() funciton takes two arguments 
-# ('source', '	) 
+# ('source', 'destination') 
 # single dot means current directory
 # double dot means parent directory
 shutil.copy('new-file.txt', '.\\new-folder\\other-name.txt')
