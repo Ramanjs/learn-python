@@ -15,8 +15,9 @@
 ###################
 # Further branching
 ###################
-# File management (automating stuff)
+# File management (automating stuff) # textfiles and excel
 # Web Scraping (bots which can surf the internet)
+# JSON (jason) and api -> Application Programming Interface
 # SQL : 1 Week
 # Data analysis
 # numpy, pandas, scipy, matplotlib
