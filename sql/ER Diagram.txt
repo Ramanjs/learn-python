@@ -1,0 +1,10 @@
+## Relationships
+# Degree (unary, binary, ternary)
+# Reationship constraints:
+# Cardinality Ratio (1:1, 1:N, M:N)
+# Participation constraint
+
+# \sql
+# \connect "root@localhost"
+# enter password
+# Connected to the server -> enter sql queries

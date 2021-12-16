@@ -1,0 +1,25 @@
+## ER Model
+# Entity
+# Any real world object eg, person, school, building.
+
+# Attributes -> properties of entity -> age, weight, height.
+
+# Composite Attributes-> first name, last name.
+# Which can be broken down further.
+
+# Simple Attributes
+# Which cannot be broken down further.
+
+# Single Valued Attributes
+# age - 19
+
+# Multi Valued Attributes
+# College degree(bsc, msc)
+
+# Complex Attributes (multi + composite) e.g. {CollegeDegrees(college, year, degree, field)}
+
+# Null values -> unknown or undefined
+# Entity type and entity set
+
+# Key Attribute -> student id, unique id
+# Value set of attributes
