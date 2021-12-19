@@ -1,4 +1,4 @@
-first we create an empty excel file then we stored it in file variable, then we accessed the active sheet 
+#first we create an empty excel file then we stored it in file variable, then we accessed the active sheet 
 from openpyxl import workbook   #woekbook is a function which returns an excel file
 file= Workbook()	#nameless workbook created- calling workbook fn
 wst=file.active	    # active sheet selected and stored it in wst
