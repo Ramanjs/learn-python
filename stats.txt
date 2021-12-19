@@ -1,0 +1,28 @@
+Descriptive Statistics:
+
+Measures in Descriptive Statistics
+Measures of central tendency
+Measures of Spread
+Range & IQR
+Variance & Standard Deviation
+Measure of Position
+
+Inferential Statistics:
+Introduction to Inferential Statistics
+Why Inferential Statistics?
+Probability Distribution
+Normal Distribution
+Standard Normal Distribution
+Sampling Distribution
+Central Limit Theorem
+
+Hypothesis Testing:
+What is Hypothesis Testing
+Null & Alternative Hypothesis
+Significance Level
+Test statistic
+Test Statistic: Critical value & Rejection Region
+Test Statistic: Type of Test
+Errors in Hypothesis Testing
+
+Linear Regression and multiple linear regression
