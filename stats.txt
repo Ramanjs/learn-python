@@ -1,5 +1,4 @@
 Descriptive Statistics:
-
 Measures in Descriptive Statistics
 Measures of central tendency
 Measures of Spread
